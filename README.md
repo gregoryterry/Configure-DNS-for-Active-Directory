@@ -79,11 +79,11 @@ Ipconfig /all
 <p>
 <img src="https://i.imgur.com/94fqCRp.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>Change > Member of Domain
+<p>Change
 <p>
 <img src="https://i.imgur.com/ei1jYGI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-<p>Enter the domain name > Ok
+<p>Member of:  Domain > Enter the domain name > Ok
 <p>
 <img src="https://i.imgur.com/Dt3jD6C.png " height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
@@ -143,7 +143,7 @@ Members tab
 
 new > Organizational Unit
 </p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uxKXVAT.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Name the OU "CLIENTS"  > OK
 <p>
