@@ -3,7 +3,7 @@ In this lab I will configure my client computer to use DC01 as its primary domai
 
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-<img src="" alt="Microsoft DNS Logo"/>
+<img src="https://i.imgur.com/kqtK3EL.png" alt="Microsoft DNS Logo"/>
 </p>
 
 <h1> (Azure)</h1>
@@ -40,15 +40,15 @@ This tutorial outlines the implementation of DNS within Azure Virtual Machines.<
 
 <p>Click on GTWS-01 the client VM  > under settings/ networking > select the network interface
 <p>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/N6wcIUQ.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>Select DNS servers > custom > enter the private IP address for DC01 “10.0.0.4”  > save
 <P>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r3gzRyQ.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>From the Azure portal > restart GTWS-01 client to flush the old DNS settings
 <p>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hOUJbk0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <h4> Verify communication between Domain Controller and Client Computer</h4>
@@ -56,7 +56,7 @@ This tutorial outlines the implementation of DNS within Azure Virtual Machines.<
 <p>Log into GTWS-01 client with RDP using the public IP address 
 Use the local Admin username
 <p>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IgS03Ct.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Check to see if the DNS Servers is pointing to DC01 private address 10.0.0.4
 
@@ -64,11 +64,11 @@ Right-click start > run > cmd
 
 Ipconfig /all    
 <p>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PDb8xFj.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Ping 10.0.0.4   to verify communication between DC01 and the client computer
 <p>
-<img src=" " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wtn2zvD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <h4>Join the client computer to the domain DC01</h4>
 
