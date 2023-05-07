@@ -28,7 +28,8 @@ This tutorial outlines the implementation of DNS within Azure Virtual Machines.<
 - Restart the client computer
 - Verify communication between Domain Controller and Client Computer
 - Join the client computer to the domain DC01
-- Log into the domain controller and verify that the client computer show up in Active directory users and computers
+- Log into the domain controller, verify that the client computer appears
+  in Active directory users and computers
 - Setup Remote Desktop to allow all non-admin domain user access to remote desktop
 - Create an OU name “Clients” and put the new client computer into that OU
 
@@ -92,15 +93,18 @@ This computer is now part of the domain
 
 
 
-<h4>Log into the domain controller and verify that the client computer show up in Active directory users and computers</h4
+<h4>Log into the domain controller, verify that the client computer appears in Active directory users and computers</h4
 
 <p>Restart the VM connection > log on to DC01 with RDP using the domain logon username
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-<p>In Server Manager > tools > Active Directory Users and Computers >
-expand the domain down to computers > We can see that GTWS-01 is listed as a computer in the domain
-<p>
+</p>In Server Manager > tools > Active Directory Users and Computers >
+
+expand the domain down to computers >
+
+We can see that GTWS-01 is listed as a computer in the domain
+</p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 
@@ -109,27 +113,32 @@ expand the domain down to computers > We can see that GTWS-01 is listed as a com
 <p>Log back into GTWS-01
 Right-click start > system > remote desktop
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Under User Accounts, select Users that can remotely access this PC
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Add > domain users
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-<p>Go to DC01
+</p>Go to DC01
 Active Directory Users and Computers > mydomain.com > users > domain users >
- 	Members tab		**Here are the domain users that can access GTWS01 with RDP
-<p>
+
+Members tab	
+
+**Here are the domain users that can access GTWS01 with RDP
+</p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <h4>Create an OU name “Clients” and put the new client computer into that OU</h4>
 
-<p>Active Directory Users and Computers  >  right-click gterrylabdoamin.com > new > Organizational Unit
-<p>
+</p>Active Directory Users and Computers > right-click gterrylabdoamin.com >
+
+new > Organizational Unit
+</p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Name the OU "CLIENTS"  > OK
@@ -138,5 +147,7 @@ Active Directory Users and Computers > mydomain.com > users > domain users >
 <p>Drag the Client Computer from the Computers OU the the Clients OU
 <p>
 
-<p>In the next lab I will create new users with a PowerShell script and attempt to log on to the domain controller with one of the new users.
-<p>
+</p>In the next lab I will create new users with a PowerShell script and attempt
+
+to log on to the domain controller with one of the new users.
+</p>
