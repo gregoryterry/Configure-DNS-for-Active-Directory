@@ -85,14 +85,14 @@ Ipconfig /all
 
 <p>Enter the domain name > Ok
 <p>
-<img src="https://i.imgur.com/Dt3jD6C.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Dt3jD6C.png " height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Enter domain user name:	gterrylabdomain.com\gregory.terry
 Enter password:		
 
 This computer is now part of the domain
 <p>
-<img src="https://i.imgur.com/yvNTTc3.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yvNTTc3.png " height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 
 
@@ -100,7 +100,7 @@ This computer is now part of the domain
 
 <p>Restart the VM connection > log on to DC01 with RDP using the domain logon username
 <p>
-<img src="https://i.imgur.com/HaJIrwM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HaJIrwM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 </p>In Server Manager > tools > Active Directory Users and Computers >
 
@@ -108,7 +108,7 @@ expand the domain down to computers >
 
 We can see that GTWS-01 is listed as a computer in the domain
 </p>
-<img src="https://i.imgur.com/xomMQ8e.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xomMQ8e.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 <h4>Setup Remote Desktop to allow all non-admin domain user access to remote desktop</h4>
@@ -120,12 +120,12 @@ Right-click start > system > remote desktop
 
 <p>Under User Accounts, select Users that can remotely access this PC
 <p>
-<img src="https://i.imgur.com/VbQXvyj.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VbQXvyj.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Add > domain users
 <p>
-<img src="https://i.imgur.com/4bm5UWT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4bm5UWT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
 
 </p>Go to DC01
 Active Directory Users and Computers > mydomain.com > users > domain users >
