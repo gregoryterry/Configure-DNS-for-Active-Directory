@@ -120,11 +120,11 @@ Right-click start > system > remote desktop
 
 <p>Under User Accounts, select Users that can remotely access this PC
 <p>
-<img src="https://i.imgur.com/VbQXvyj.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VbQXvyj.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Add > domain users
 <p>
-<img src="https://i.imgur.com/4bm5UWT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4bm5UWT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 </p>Go to DC01
@@ -134,7 +134,7 @@ Members tab
 
 **Here are the domain users that can access GTWS01 with RDP
 </p>
-<img src="https://i.imgur.com/XobNe1s.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XobNe1s.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
 
 <h4>Create an OU name “Clients” and put the new client computer into that OU</h4>
@@ -143,7 +143,7 @@ Members tab
 
 new > Organizational Unit
 </p>
-<img src="https://i.imgur.com/uxKXVAT.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uxKXVAT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Name the OU "CLIENTS"  > OK
 <p>
