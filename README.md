@@ -42,15 +42,15 @@ This tutorial outlines the implementation of DNS within Azure Virtual Machines.<
 
 <p>Click on GTWS-01 the client VM  > under settings/ networking > select the network interface
 <p>
-<img src="https://i.imgur.com/N6wcIUQ.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/N6wcIUQ.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Select DNS servers > custom > enter the private IP address for DC01 “10.0.0.4”  > save
 <P>
-<img src="https://i.imgur.com/r3gzRyQ.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r3gzRyQ.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>From the Azure portal > restart GTWS-01 client to flush the old DNS settings
 <p>
-<img src="https://i.imgur.com/hOUJbk0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hOUJbk0.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 
 <h4> Verify communication between Domain Controller and Client Computer</h4>
@@ -77,7 +77,7 @@ Ipconfig /all
 
 <p>Right-click Start > system > rename this pc (advanced)
 <p>
-<img src="https://i.imgur.com/94fqCRp.png " height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/94fqCRp.png " height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Change
 <p>
