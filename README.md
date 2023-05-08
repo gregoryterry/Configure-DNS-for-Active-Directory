@@ -85,7 +85,7 @@ Ipconfig /all
 
 <p>Member of:  Domain > Enter the domain name > Ok
 <p>
-<img src="https://i.imgur.com/Dt3jD6C.png " height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Dt3jD6C.png " height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Enter domain user name:	gterrylabdomain.com\gregory.terry
 Enter password:		
